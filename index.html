@@ -15,19 +15,70 @@
   <body>
     <div class="container">
       <div class="signup-form">
-        <form>
+        <form id="form">
           <div class="heading">Sign Up Form</div>
           <div class="input-field">
-            <div class="input-text" id="text">
-              <input type="text" placeholder="Enter your name" required />
+            <div class="input-text">
+              <input
+                type="text"
+                id="text"
+                value=""
+                placeholder="Enter your Name"
+                required
+              />
             </div>
-            <div class="input-pass" id="password">
-              <input type="password" placeholder="Enter Password" required />
+            <div class="input-text" id="email">
+              <input type="email" placeholder="Enter your Email" required />
+            </div>
+            <div class="input-pass">
+              <input
+                type="password"
+                placeholder="Enter Password"
+                id="password"
+                required
+              />
+              <img
+                src="./eyeClose.png"
+                alt=""
+                width="23px"
+                id="eyeIcon"
+                onclick="showHide()"
+              />
             </div>
           </div>
-          <button class="btn">Create</button>
-          <p>Already have an Account? <a href="">Click here</a></p>
+          <button class="btn" onclick="sub()">Create</button>
+          <p>Already have an Account? <a href="">Sign In</a></p>
         </form>
+      </div>
+    </div>
+    <div class="text-container">
+      <div class="content">
+        <p> <h1>Unveiling the Power of ChatGPT: A Revolution in Conversational AI</h1>
+          <br>
+
+          <h3>Introduction</h3>
+          
+          In the ever-evolving landscape of artificial intelligence, ChatGPT stands out as a formidable example of cutting-edge technology. Developed by OpenAI, ChatGPT is powered by the GPT-3.5 architecture, showcasing the incredible capabilities of natural language processing. This blog explores the nuances of ChatGPT, its applications, and the impact it has had on the world of conversational AI. <br>
+          <br>
+          
+          <h3>Understanding ChatGPT</h3>
+          
+          ChatGPT is a language model that belongs to the family of Generative Pre-trained Transformers (GPT). Trained on diverse datasets, ChatGPT has learned to understand and generate human-like text, making it adept at engaging in conversations. It uses a transformer architecture, allowing it to capture context and generate coherent and contextually relevant responses. <br>
+          <br>
+          
+          <h2>Key Features of ChatGPT</h2>
+        <h3>Versatility:</h3> One of the standout features of ChatGPT is its versatility. It can be fine-tuned for various applications, ranging from customer support chatbots to content creation assistants. <br>
+          <br>
+          
+          <h3>Contextual Understanding:</h3> Thanks to its transformer architecture, ChatGPT excels in understanding context within a conversation. This enables it to provide more accurate and context-aware responses. <br>
+          <br>
+          
+          <h3>Large Knowledge Base:</h3>Trained on a vast amount of data, ChatGPT possesses a broad knowledge base up to its last training cut-off in 2022. It can provide information on a wide array of topics. <br>
+          <br>
+          
+          <h3>Conclusion</h3>
+          
+          ChatGPT represents a significant stride in the realm of conversational AI. Its ability to understand and generate human-like text has paved the way for innovative applications across various domains. As we continue to explore the potential of AI, ChatGPT stands as a testament to the ongoing pursuit of creating intelligent systems that can engage with users in a manner that feels natural and intuitive.</p>
       </div>
     </div>
 
