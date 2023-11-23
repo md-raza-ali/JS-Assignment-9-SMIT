@@ -14,5 +14,22 @@ let password = document.getElementById("password");
 let form = document.getElementById("form");
 function sub() {
   let text = document.getElementById("text").value;
-  document.write(text.value);
+  alert(text.value);
+}
+let signIn = document.getElementById("signIn");
+function sign_In() {
+  alert("RUKO ZARA SABAR KRO!!");
+}
+
+// SHOW/HIDE TEXT
+function showHideText() {
+  let readMoreText = document.getElementById("readMoreText");
+  let hideshowbtn = document.getElementById("hide-show-btn");
+  if (readMoreText.style.display != "block") {
+    readMoreText.style.display = "block";
+    hideshowbtn.innerHTML = "Read Less";
+  } else {
+    readMoreText.style.display = "none";
+    hideshowbtn.innerHTML = "Read More";
+  }
 }
