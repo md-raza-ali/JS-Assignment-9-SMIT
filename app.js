@@ -1,3 +1,4 @@
+// SHOW/HIDE PASSWORD
 let eyeicon = document.getElementById("eyeIcon");
 let pass = document.getElementById("password");
 function showHide() {
@@ -9,16 +10,22 @@ function showHide() {
     eyeIcon.src = "eyeClose.png";
   }
 }
+
+// GETTING VALUE OF INPUT BROWSER
 let email = document.getElementById("email");
 let password = document.getElementById("password");
 let form = document.getElementById("form");
 function sub() {
   let text = document.getElementById("text").value;
-  alert(text.value);
+  document.write("Name: " + text);
+  let email = document.getElementById("email").value;
+  document.write("Email: " + email);
+  let password = document.getElementById("password").value;
+  document.write("Password: " + password);
 }
 let signIn = document.getElementById("signIn");
 function sign_In() {
-  alert("RUKO ZARA SABAR KRO!!");
+  alert("COMING SOON...");
 }
 
 // SHOW/HIDE TEXT
