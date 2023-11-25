@@ -97,16 +97,17 @@ p a {
 }
 .content {
   width: 100%;
-  height: 105vh;
+  min-height: 60vh;
 }
 .content p {
   text-align: left;
   font-size: 10px;
+  
 }
 h1 {
   text-align: center;
   font-size: 28px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 h1::after {
   content: "";
@@ -128,6 +129,7 @@ h3 {
 }
 .content #readMoreText {
   display: none;
+  
 }
 .content #hide-show-btn {
   background-color: #0093e9;
@@ -139,4 +141,9 @@ h3 {
   font-size: 14px;
   margin-bottom: 15px;
   /* float: right; */
+}
+.table-container{
+  width: 100%;
+  height: 80vh;
+  color: black;
 }
